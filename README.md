@@ -8,7 +8,7 @@ This repo is a practical implementation of **10 Essential Data Quality Checks** 
 
 Data quality is one of the most critical aspects of any **Analytics, Reporting, Data Engineering, or AI/ML project**. Before building dashboards, training models, or sharing insights, organizations must ensure that their data is accurate, complete, consistent, and reliable.
 
-This repository provides a hands-on framework for validating data quality using industry-standard checks implemented in both SQL and PySpark.
+This repository provides a hands-on framework for validating data quality using industry-standard checks implemented in both SQL and PySpark. Integrate these checks into ETL/ELT pipelines using Airflow, dbt, Databricks, Snowflake, Azure Data Factory, or your preferred orchestration tool.
 
 ### What You'll Learn
 
@@ -76,7 +76,6 @@ Each data quality check includes:
 ✅ Production Considerations
 
 ## Sample Notebook Flow
-Integrate these checks into ETL/ELT pipelines using Airflow, dbt, Databricks, Snowflake, Azure Data Factory, or your preferred orchestration tool.
 
 1. Create Sample Datasets
 2. Execute SQL Data Quality Checks

@@ -76,6 +76,7 @@ Each data quality check includes:
 ✅ Production Considerations
 
 ## Sample Notebook Flow
+Integrate these checks into ETL/ELT pipelines using Airflow, dbt, Databricks, Snowflake, Azure Data Factory, or your preferred orchestration tool.
 
 1. Create Sample Datasets
 2. Execute SQL Data Quality Checks

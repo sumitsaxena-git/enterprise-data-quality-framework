@@ -84,6 +84,12 @@ Each data quality check includes:
 5. Review Failed Records
 6. Apply Production Best Practices
 
+### Run in Databricks
+Clone this repository into your Databricks Workspace using Git integration or import the notebook manually.
+Attach the notebook to a Databricks cluster running Apache Spark and execute all cells sequentially to create sample datasets and run the SQL and PySpark data quality validations.
+
+git clone https://github.com/sumitsaxena-git/enterprise-data-quality-framework.git
+
 ## Future Enhancements
 
 * Data Quality Score Calculation

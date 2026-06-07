@@ -1,4 +1,4 @@
-# Enterprise Data Quality Framework
+# Enterprise Data Quality Framework using SQL & PySpark (Banking KYC)
 
 ## SQL + PySpark + Databricks
 
@@ -25,16 +25,16 @@ This repository provides a hands-on framework for validating data quality using 
 
 | #  | Check                 | Description                                 |
 | -- | --------------------- | ------------------------------------------- |
-| 1  | Null Checks           | Identify missing values in critical columns |
-| 2  | Uniqueness Checks     | Detect duplicate records                    |
-| 3  | Referential Integrity | Validate parent-child relationships         |
-| 4  | Accepted Values       | Enforce valid business domain values        |
-| 5  | Functional Rules      | Validate business-specific logic            |
-| 6  | Range Checks          | Detect invalid numeric values and outliers  |
-| 7  | Data Type Validation  | Verify data format and schema compliance    |
-| 8  | Freshness Checks      | Ensure data is up-to-date                   |
-| 9  | Temporal Consistency  | Validate date and time relationships        |
-| 10 | Null Spike Detection  | Monitor sudden increases in missing data    |
+| 1  | Null Checks           | Missing Mobile, Email |
+| 2  | Uniqueness Checks     | Detect Duplicate Customer ID                 |
+| 3  | Referential Integrity | KYC Customer Not Found      |
+| 4  | Accepted Values       | Invalid Customer Status       |
+| 5  | Functional Rules      | VERIFIED KYC must have expiry date          |
+| 6  | Range Checks          | Negative Balance |
+| 7  | Data Type Validation  | Invalid PAN Format  |
+| 8  | Freshness Checks      | Old KYC Verification                   |
+| 9  | Temporal Consistency  | Expiry Before Start Date       |
+| 10 | Null Spike Detection  | 30%+ customers missing email   |
 
 ## Technologies Used
 
